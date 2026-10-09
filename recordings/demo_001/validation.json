@@ -1,0 +1,26 @@
+{
+  "recording_pass": true,
+  "submission_checks_pass": true,
+  "frames": 450,
+  "applied_llm_decisions": 30,
+  "checks": {
+    "completed_run": true,
+    "contiguous_300plus_records": true,
+    "required_fields_and_finite_values": true,
+    "engine_frames_contiguous": true,
+    "measured_engine_time_matches_fps": true,
+    "images_decode_count_and_hash": true,
+    "held_actions_and_llm_decision_alignment": true,
+    "demo_30_to_90_seconds": true
+  },
+  "details": {},
+  "movement": {
+    "xy_path_length_unreal_cm": 1427.6355164704696,
+    "xy_net_displacement_unreal_cm": 473.66718281167516
+  },
+  "demo_duration_seconds": 59.86666666666667,
+  "warnings": [
+    "Navigation success, approved scene/agent and demo content need human review."
+  ],
+  "official_grader": false
+}

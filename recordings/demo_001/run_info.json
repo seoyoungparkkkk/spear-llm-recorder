@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "requested_frames": 450,
+  "recorded_frames": 450,
+  "fps": 30,
+  "single_step": true,
+  "llm_every": 15,
+  "model_requested": "claude-opus-4-8",
+  "goal": "Explore the room toward a distinctive visible object. Avoid walls and obstacles. If blocked, find another direction using the camera and recent positions.",
+  "termination": "fixed_frame_budget",
+  "agent": "BP_SphereAgent",
+  "pose_convention": "sphere center + navigation root heading",
+  "pose_units": "Unreal centimeters; pitch/yaw/roll degrees",
+  "observation_timing": "post-action, end of same engine frame; first captured frame has t=0",
+  "warmup_frames_excluded": 30,
+  "force_scale": 3000.0,
+  "yaw_step_deg": 2.0,
+  "created_utc": "2026-10-09T05:57:17.306071+00:00",
+  "goal_success_evaluated": false,
+  "approved_scene_agent_verified": false,
+  "pixel_conversion": "uint8 unchanged; floating BGR clipped to [0,1], multiplied by 255",
+  "sources_sha256": {
+    "run_episode.py": "ac2b5bbf27fdbdfe8ea9fe6a0c31374d94d44787d4bfc08ea04e75ef64d60473",
+    "recorder.py": "cce8d38f2f8f446ef48eb67ed963029cc014e5e2473b255d507e9e93ca926f99",
+    "llm_agent.py": "33d500e49493cbca008af100af74bf3b5a9912f26b4a86f296877729625766a7",
+    "validate.py": "242ea8453e1793c4e5a6fed05f32c0081e8f6e7a5f4457b4bb61850d37922cc6"
+  },
+  "scene_name": "apartment_0000",
+  "native_camera_dtype": "uint8",
+  "native_camera_range_first_frame": [
+    0.0,
+    255.0
+  ]
+}

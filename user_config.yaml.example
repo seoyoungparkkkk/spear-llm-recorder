@@ -1,0 +1,11 @@
+# Copy to user_config.yaml (git-ignored) and edit the paths for YOUR machine.
+SPEAR:
+  LAUNCH_MODE: "editor"       # or "game" with GAME_EXECUTABLE
+  INSTANCE:
+    EDITOR_EXECUTABLE: "/path/to/UE_5.5/Engine/Binaries/.../UnrealEditor"
+    EDITOR_UPROJECT: "/path/to/spear/cpp/unreal_projects/SpearSim/SpearSim.uproject"
+    EDITOR_LAUNCH_MODE: "editor"
+    CLIENT_INTERNAL_TIMEOUT_SECONDS: 60.0
+    COMMAND_LINE_ARGS:
+      resx: 512
+      resy: 512

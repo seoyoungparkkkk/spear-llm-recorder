@@ -1,0 +1,13 @@
+.env
+user_config.yaml
+.venv/
+__pycache__/
+*.pyc
+tmp/
+Binaries/
+Intermediate/
+Saved/
+.DS_Store
+backup_before_fix_*/
+run.log
+.*.update-temp

@@ -1,0 +1,5 @@
+# SPEAR itself is installed from the team checkout:  pip install -e <path-to-spear>/python
+numpy
+opencv-python
+anthropic
+python-dotenv
